@@ -1,6 +1,10 @@
-import React from 'react'
+import { skills } from "../data"
 
 const index = () => {
+
+  console.log(skills);
+  
+
   return (
     <div>
       <h1>Hello job</h1>
