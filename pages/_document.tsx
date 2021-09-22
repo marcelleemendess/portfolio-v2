@@ -5,11 +5,11 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="eng">
         <Head>
             <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"/>
         </Head>
-        <body className="bg-gradient-to-r from-purple-700 to-red-400">
+        <body className="bg-gradient-to-r from-purple-700 to-red-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>

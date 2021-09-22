@@ -2,7 +2,7 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { ISkills } from "./types";
+import { IProject, ISkills } from "./types";
 
 export const skills: ISkills[] = [
   {
@@ -41,3 +41,51 @@ export const skills: ISkills[] = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
   },
 ];
+
+export const projects:IProject[] = [
+  {  
+    name: "Dealsourcr",
+    description:"Dealsourcr Ltd. is a company that helps investors and deal sourcers find the highest ROI property deals in the UK.",
+    github_url: "https://dealsourcr.com/",
+    deployed_url: "https://dealsourcr.com/",
+    image_path: "/images/dealsourcr.png",
+    key_techs: ["React JS"]
+  },
+  {
+    name: "E-commerce",
+    description: "The project is a E-commerce store where you can purchase electronics. It's possible to add and remove products to your cart and calculate the amount spent it.",
+    github_url: "https://github.com/marcelleemendess/ecommerce",
+    deployed_url: "https://competent-mayer-1fd506.netlify.app/",
+    image_path: "/images/ecommerce.png",
+    key_techs: []
+  },
+  {
+   
+    name: "Netflix Clone",
+    description:"A Netflix clone built using React. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which are fetched from Youtube.",
+    github_url:"https://github.com/marcelleemendess/netflix-clone",
+    deployed_url: "https://dazzling-blackwell-399e74.netlify.app",
+    image_path: "/images/netflix.png",
+    key_techs:[]
+
+  },
+  {
+    
+    name: "Bookshelf",
+    description:"The project is a web application used to look up Books. It's possible to find the books easily using ISBN, title, or author.",
+    github_url:"https://github.com/marcelleemendess/bookshelf-",
+    deployed_url: "https://bookshelf-ten.vercel.app/",
+    image_path: "/images/bookshelf.png",
+    key_techs:[]
+  },
+  {
+    
+    name: "To Do List",
+    description:"The project is a functional To-do list application with authentication, you can create an account and add, complete or delete your tasks.",
+    github_url:"https://github.com/marcelleemendess/todolist",
+    deployed_url: "https://todolist-five-teal.vercel.app/",
+    image_path: "/images/todo.png",
+    key_techs:[]
+  
+  }
+]

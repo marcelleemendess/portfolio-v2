@@ -2,12 +2,18 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineDownload } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
 const Sidebar = () => {
+    const { theme, setTheme } = useTheme();
+    
+    const changeTheme = () => {
+        setTheme(theme === "light" ? "dark" : "light")
+    }
     return (
         <div>
             <Image
-                src="/static/my-image.jpg"
+                src="/images/my-image.jpg"
                 width="150"
                 height="150"
                 alt="avatar image"
@@ -17,9 +23,9 @@ const Sidebar = () => {
                 <span className="text-purple">Marcelle </span>
                 Mendes
             </h3>
-            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Front-End Developer</p>
+            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Front-End Developer</p>
             <a
-                className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full "
+                className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-500 dark:bg-dark-200"
                 href=""
                 download="">
                 <AiOutlineDownload className="w-6 h-6 mx-1"/>
@@ -38,7 +44,7 @@ const Sidebar = () => {
                 </a>
             </div>
              {/* address */}
-            <div className="py-4 my-5 bg-gray-200"
+            <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
                 style={{ marginLeft: "-1rem", marginRight: "-1rem" }}>
                 <div className="flex items-center justify-center space-x-1">
                     <GoLocation/>
@@ -48,13 +54,15 @@ const Sidebar = () => {
             </div>
             {/* Email and toggle button */}
             <button 
-                className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple to-red-400 focus:outline-none" 
+                className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 focus:outline-none hover:scale-105" 
                 onClick={() => window.open('mailto:marcellee.mendess@gmail.com')}>
                 Email me   
             </button>
-            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-purple to-red-400">Dark Mode </button>
-            
-           
+            <button 
+                className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 hover:scale-105" 
+                onClick={changeTheme}>
+                Change Theme 
+            </button>  
         </div>
     )
 }
