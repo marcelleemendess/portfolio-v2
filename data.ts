@@ -57,7 +57,7 @@ export const projects:IProject[] = [
     github_url: "https://github.com/marcelleemendess/ecommerce",
     deployed_url: "https://competent-mayer-1fd506.netlify.app/",
     image_path: "/images/ecommerce.png",
-    key_techs: []
+    key_techs: ["React JS"]
   },
   {
    
@@ -66,7 +66,7 @@ export const projects:IProject[] = [
     github_url:"https://github.com/marcelleemendess/netflix-clone",
     deployed_url: "https://dazzling-blackwell-399e74.netlify.app",
     image_path: "/images/netflix.png",
-    key_techs:[]
+    key_techs:["React JS"]
 
   },
   {
@@ -76,7 +76,7 @@ export const projects:IProject[] = [
     github_url:"https://github.com/marcelleemendess/bookshelf-",
     deployed_url: "https://bookshelf-ten.vercel.app/",
     image_path: "/images/bookshelf.png",
-    key_techs:[]
+    key_techs:["React JS"]
   },
   {
     
@@ -85,7 +85,7 @@ export const projects:IProject[] = [
     github_url:"https://github.com/marcelleemendess/todolist",
     deployed_url: "https://todolist-five-teal.vercel.app/",
     image_path: "/images/todo.png",
-    key_techs:[]
+    key_techs:["React JS"]
   
   }
 ]
