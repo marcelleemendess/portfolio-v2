@@ -43,7 +43,8 @@ export const skills: ISkills[] = [
 ];
 
 export const projects:IProject[] = [
-  {  
+  {
+    id: 1,
     name: "Dealsourcr",
     description:"Dealsourcr Ltd. is a company that helps investors and deal sourcers find the highest ROI property deals in the UK.",
     github_url: "https://dealsourcr.com/",
@@ -52,6 +53,7 @@ export const projects:IProject[] = [
     key_techs: ["React JS"]
   },
   {
+    id: 2,
     name: "E-commerce",
     description: "The project is a E-commerce store where you can purchase electronics. It's possible to add and remove products to your cart and calculate the amount spent it.",
     github_url: "https://github.com/marcelleemendess/ecommerce",
@@ -60,7 +62,7 @@ export const projects:IProject[] = [
     key_techs: ["React JS"]
   },
   {
-   
+    id: 3,
     name: "Netflix Clone",
     description:"A Netflix clone built using React. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which are fetched from Youtube.",
     github_url:"https://github.com/marcelleemendess/netflix-clone",
@@ -70,7 +72,7 @@ export const projects:IProject[] = [
 
   },
   {
-    
+    id: 4,
     name: "Bookshelf",
     description:"The project is a web application used to look up Books. It's possible to find the books easily using ISBN, title, or author.",
     github_url:"https://github.com/marcelleemendess/bookshelf-",
@@ -79,7 +81,7 @@ export const projects:IProject[] = [
     key_techs:["React JS"]
   },
   {
-    
+    id: 5,
     name: "To Do List",
     description:"The project is a functional To-do list application with authentication, you can create an account and add, complete or delete your tasks.",
     github_url:"https://github.com/marcelleemendess/todolist",

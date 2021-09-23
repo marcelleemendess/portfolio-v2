@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* TODO use tailwind */
 body {
   background-color: black;
   font-family: sans-serif;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #4c1d95, #f87171);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
 }

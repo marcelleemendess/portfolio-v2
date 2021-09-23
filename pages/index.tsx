@@ -1,12 +1,20 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
 import { skills } from "../data"
 import SkillCard from "../components/SkillCard";
+import { motion } from "framer-motion";
+import { fadeInUp, routeAnimation, stagger } from "../animations";
+import { NextPage } from "next";
 
-const index = () => {
+const About: NextPage = () => {
 
-  return (
-    
-    <div className="flex flex-col flex-grow px-6 pt-1">
+  return (  
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 font-medium">
         I'm a passionate Front-End developer using web technologies to build products and focusing on solving problems with the power of technology.
         I've spent most of my time learning React.js and the new features, but I'm always excited to learn new technologies. 
@@ -18,20 +26,28 @@ const index = () => {
         <h6 className="my-3 text-xl font-bold tracking-wide">
           My Skills
         </h6>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <motion.div className="grid gap-6 lg:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
           {skills.map(skill => (
-            <div className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
+            <motion.div
+              variants={fadeInUp}
+              // initial="initial"   info will come from the parent element
+              // animate="animate"
+              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
               <SkillCard skill={skill} />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
     
   )
 }
 
-export default index;
+export default About;
 
 // export const getServerSideProps = async (context: GetServerSidePropsContext) => {
   
