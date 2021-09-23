@@ -33,6 +33,7 @@ const About: NextPage = () => {
         >
           {skills.map(skill => (
             <motion.div
+              key={skill.title}
               variants={fadeInUp}
               // initial="initial"   info will come from the parent element
               // animate="animate"
