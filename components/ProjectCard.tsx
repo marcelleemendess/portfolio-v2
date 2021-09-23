@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from "react"
 import { AiFillGithub, AiFillProject } from "react-icons/ai"
 import { MdClose } from "react-icons/md"
 import { IProject } from "../types"
-// import Image from "next/image"
+import Image from "next/image"
 import { fadeInUp, stagger } from "../animations"
 import { motion } from "framer-motion";
 
@@ -29,22 +29,21 @@ const ProjectCard: FunctionComponent<{
     
     return (
         <div>
-            {/* <Image
-                src={image_path}
-                alt={name}
-                className="cursor-pointer"
-                onClick={() => setShowDetail(true)}
-                width="300"
-                height="150"
-                layout="responsive"
-            /> */}
-           
-            <img
+            <Image
                 src={image_path}
                 alt={name}
                 className="cursor-pointer"
                 onClick={() => setShowDetail(id)}
+                width="300"
+                height="150"
+                layout="responsive"
             />
+            {/* <img
+                src={image_path}
+                alt={name}
+                className="cursor-pointer"
+                onClick={() => setShowDetail(id)}
+            /> */}
     
             <p className="my-2 text-center">{name}</p>
 

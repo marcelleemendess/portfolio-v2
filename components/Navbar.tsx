@@ -31,7 +31,7 @@ const Navbar = () => {
     useEffect(() => {
         if (pathname === '/') setActiveItem('About')
         if (pathname === '/projects') setActiveItem('Projects')
-    }, [])
+    }, [pathname])
     return (
         <div className="flex justify-between px-5 my-3 ">
             <span className="text-xl font-bold border-b-4 text-purple border-purple md:text-2xl">
