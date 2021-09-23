@@ -59,6 +59,7 @@ const ProjectCard: FunctionComponent<{
                         </motion.div>
                         <motion.div variants={fadeInUp} className="flex justify-center my-4 space-x-3">
                             <a target="_blank"
+                                rel="noopener noreferrer"
                                 href={github_url} 
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 "
                             >
@@ -66,6 +67,7 @@ const ProjectCard: FunctionComponent<{
                                 <span>Github</span>
                             </a>
                             <a target="_blank"
+                                rel="noopener noreferrer"
                                 href={deployed_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
