@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from "react"
 import { AiFillGithub, AiFillProject } from "react-icons/ai"
 import { MdClose } from "react-icons/md"
 import { IProject } from "../types"
-import Image from "next/image"
+// import Image from "next/image"
 import { fadeInUp, stagger } from "../animations"
 import { motion } from "framer-motion";
 

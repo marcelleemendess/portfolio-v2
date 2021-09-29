@@ -4,12 +4,15 @@ import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 import { skills } from "../data"
 import SkillCard from "../components/SkillCard";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RainbowHighlight } from "./RainbowHighlight";
 
 
 
 const About = ({ toggleContent, setToggleContent}) => {
    
     const [showDetail, setShowDetail] = useState<number | null>(null)
+    const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
     
     return (
         <>
@@ -22,9 +25,9 @@ const About = ({ toggleContent, setToggleContent}) => {
           exit="exit"
         >
           <h5 className="my-3 font-medium">
-            I'm a passionate Front-End developer using web technologies to build products and focusing on solving problems with the power of technology.
-            I've spent most of my time learning React.js and the new features, but I'm always excited to learn new technologies.
-            I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.
+            I'm a passionate <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Front-End developer</RainbowHighlight></RoughNotationGroup>  using web technologies to build user-friendly, simple and delightful products.
+            I've spent most of my time learning <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>React.js</RainbowHighlight></RoughNotationGroup> and the new features, but I'm always excited to learn new technologies.
+            I will love to hear from you. Whether it's a project or just a chat. <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Feel free to contact me.</RainbowHighlight></RoughNotationGroup>
           </h5>
           <div
             className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
