@@ -3,7 +3,7 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { BiCodeBlock } from "react-icons/bi";
 import { IProject, ISkills } from "./types";
 import { FaServer } from "react-icons/fa"
-import { GiSkills } from "react-icons/gi"
+import {BsFillPeopleFill} from "react-icons/bs"
 
 export const skills: ISkills[] = [
   {
@@ -37,7 +37,7 @@ export const skills: ISkills[] = [
       "Basic knowledge using <b>Node JS</b>, <b>Express JS</b> and <b>MongoDB</b>",
   },
    {
-    Icon: GiSkills,
+    Icon: BsFillPeopleFill,
     title: "Soft Skills",
      about:
       "Handle <b>Teamwork</b>, <b>Good Communication</b>, <b>Problem-solving</b>, <b>Creative</b> and constant <b>Learning</b>"
