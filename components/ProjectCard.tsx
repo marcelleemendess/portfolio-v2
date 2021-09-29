@@ -24,9 +24,6 @@ const ProjectCard: FunctionComponent<{
     showDetail,
     setShowDetail
 }) => {
-
-    
-    
     return (
         <div>
             {/* <Image
@@ -59,7 +56,7 @@ const ProjectCard: FunctionComponent<{
                                 width="300"
                             /> */}
                             <img
-                                 src={image_path}
+                                src={image_path}
                                 alt={name}
                                 className="cursor-pointer"
                                 onClick={() => setShowDetail(id)}
