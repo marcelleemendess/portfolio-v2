@@ -1,4 +1,3 @@
-import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import '../styles/globals.css';
 
@@ -13,7 +12,6 @@ function MyApp({ Component, pageProps, router }) {
           <Sidebar/>
         </div>
         <div className='flex flex-col col-span-12 overflow-hidden bg-white rounded-lg lg:col-span-9 dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark'>
-          <Navbar />
           <AnimatePresence exitBeforeEnter>
             <Component {...pageProps} key={router.route} />
           </AnimatePresence>

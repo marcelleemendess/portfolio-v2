@@ -28,8 +28,11 @@ module.exports = {
   },
   variants: {
     extend: {
-      boxShadow:['dark']
+      boxShadow: ['dark'],
+
+      
     },
+    width: ["responsive","hover", "focus"]
   },
   plugins: [],
 }

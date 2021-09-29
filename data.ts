@@ -1,44 +1,46 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
+import { RiComputerLine, RiToolsFill } from "react-icons/ri";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
+import { BiCodeBlock } from "react-icons/bi";
 import { IProject, ISkills } from "./types";
+import { FaServer } from "react-icons/fa"
+import { GiSkills } from "react-icons/gi"
 
 export const skills: ISkills[] = [
   {
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "Build a scalable SPA using <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b> and <b>CSS/Sass</b>",
   },
   {
-    Icon: FaServer,
-    title: "Backend  Development",
+    Icon: BiCodeBlock,
+    title: "Libraries & Frameworks",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Experience with <b>React JS</b>, <b>Next JS</b>, <b>Tailwind CSS</b> and <b>Bootstrap</b>",
   },
   {
-    Icon: AiOutlineApi,
-    title: "API Development",
+    Icon: RiToolsFill,
+    title: "Tools & Platforms",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
-  },
-  {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+      "Experience with <b>Git</b>, <b>Firebase</b>, <b>Netlify</b>, <b>Heroku</b>, and <b>Postman</b>",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "UI/UX",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Build user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: FaServer,
+    title: "Backend Development",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Basic knowledge using <b>Node JS</b>, <b>Express JS</b> and <b>MongoDB</b>",
+  },
+   {
+    Icon: GiSkills,
+    title: "Soft Skills",
+     about:
+      "Handle <b>Teamwork</b>, <b>Good Communication</b>, <b>Problem-solving</b>, <b>Creative</b> and constant <b>Learning</b>"
   },
 ];
 
