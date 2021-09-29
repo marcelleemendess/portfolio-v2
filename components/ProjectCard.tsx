@@ -29,7 +29,7 @@ const ProjectCard: FunctionComponent<{
     
     return (
         <div>
-            <Image
+            {/* <Image
                 src={image_path}
                 alt={name}
                 className="cursor-pointer"
@@ -37,13 +37,13 @@ const ProjectCard: FunctionComponent<{
                 width="300"
                 height="150"
                 layout="responsive"
-            />
-            {/* <img
+            /> */}
+            <img
                 src={image_path}
                 alt={name}
                 className="cursor-pointer"
                 onClick={() => setShowDetail(id)}
-            /> */}
+            />
     
             <p className="my-2 text-center">{name}</p>
 
@@ -51,12 +51,18 @@ const ProjectCard: FunctionComponent<{
                 <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
                     <motion.div variants={stagger} initial="initial" animate="animate">
                         <motion.div variants={fadeInUp} className="border-4 border-grey-100">
-                            <Image
+                            {/* <Image
                                 src={image_path}
                                 alt={name}
                                 layout="responsive"
                                 height="150"
                                 width="300"
+                            /> */}
+                            <img
+                                 src={image_path}
+                                alt={name}
+                                className="cursor-pointer"
+                                onClick={() => setShowDetail(id)}
                             />
                         </motion.div>
                         <motion.div variants={fadeInUp} className="flex justify-center my-4 space-x-3">
