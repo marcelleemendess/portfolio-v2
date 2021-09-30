@@ -4,7 +4,27 @@ import '../styles/globals.css';
 import { ThemeProvider } from 'next-themes';
 import { AnimatePresence } from 'framer-motion';
 
-function MyApp({ Component, pageProps, router }) {
+import { AppProps } from "next/app";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+import * as gtag from "../lib/gtag";
+const isProduction = process.env.NODE_ENV === "production";
+
+const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url: URL) => {
+      /* invoke analytics function only for production */
+      if (true) gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  
   return (
     <ThemeProvider attribute="class">
       <div className='grid grid-cols-12 gap-6 px-5 lg:px-48 my-14 sm:px-20 md:px-32'>
