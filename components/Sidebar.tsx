@@ -25,7 +25,7 @@ const Sidebar = () => {
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Front-End Developer</p>
             <a
-                className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-500 dark:bg-dark-200"
+                className="flex items-center justify-center px-2 py-1 my-3 transition duration-500 transform bg-gray-200 rounded-full dark:bg-black-500 dark:bg-dark-200 hover:scale-110"
                 href="/assets/Front-End-developer-MarcelleMendes-CV.docx.pdf"
                 download="Front-End-developer-MarcelleMendes-CV.docx.pdf">
                 <AiOutlineDownload className="w-6 h-6 mx-1"/>
@@ -38,21 +38,21 @@ const Sidebar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <AiFillGithub className="w-8 h-8 cursor-pointer"/>
+                    <AiFillGithub className="w-8 h-8 transition duration-500 transform cursor-pointer hover:scale-110"/>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/marcelleemendess"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <AiFillLinkedin className="w-8 h-8 cursor-pointer"/>
+                    <AiFillLinkedin className="w-8 h-8 transition duration-500 transform cursor-pointer hover:scale-110"/>
                 </a>
                 <a
                     href="https://twitter.com/marcelleemendes"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <AiOutlineTwitter className="w-8 h-8 cursor-pointer"/>
+                    <AiOutlineTwitter className="w-8 h-8 transition duration-500 transform cursor-pointer hover:scale-110"/>
                 </a>
             </div>
              {/* address */}
@@ -66,12 +66,12 @@ const Sidebar = () => {
             </div>
             {/* Email and toggle button */}
             <button 
-                className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 focus:outline-none hover:scale-105" 
+                className="w-8/12 px-5 py-2 text-white transition duration-500 transform bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 focus:outline-none hover:scale-110" 
                 onClick={() => window.open('mailto:marcellee.mendess@gmail.com')}>
                 Email Me   
             </button>
             <button 
-                className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 hover:scale-105" 
+                className="w-8/12 px-5 py-2 my-4 text-white transition duration-500 transform bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-red-400 hover:scale-110" 
                 onClick={changeTheme}>
                 Toggle Theme 
             </button>  

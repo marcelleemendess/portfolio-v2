@@ -15,7 +15,7 @@ const NavItem: FunctionComponent<{
         <a>
             <span
                 onClick={() => ( setToggleContent(s=>!s))}
-                className="cursor-pointer hover:text-purple "
+                className="transition duration-500 transform scale-110 cursor-pointer hover:text-purple"
             >
                 {!toggleContent ? 'Projects': 'About'}
             </span>
