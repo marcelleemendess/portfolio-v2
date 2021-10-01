@@ -15,7 +15,7 @@ const NavItem: FunctionComponent<{
         <a>
             <span
                 onClick={() => ( setToggleContent(s=>!s))}
-                className="transition duration-500 transform scale-110 cursor-pointer hover:text-purple"
+                className="transition duration-100 transform scale-110 cursor-pointer hover:text-purple"
             >
                 {!toggleContent ? 'Projects': 'About'}
             </span>
@@ -37,7 +37,7 @@ const Navbar = ({ toggleContent, setToggleContent}) => {
             <span className="text-xl font-bold border-b-4 text-purple border-purple md:text-2xl ">
                 {toggleContent ? 'Projects':'About'}
             </span>
-            <div className="flex space-x-3 text-lg transition duration-500 transform hover:scale-110">    
+            <div className="flex space-x-3 text-lg transition duration-100 transform hover:scale-110">    
                 <NavItem
                     activeItem={activeItem}
                     toggleContent={toggleContent}
