@@ -1,6 +1,7 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
 import { NextPage } from "next";
 import { useState } from "react";
+import Head from 'next/head'
 import Projects from "../components/Projects";
 import About from "../components/About";
 
@@ -12,6 +13,9 @@ const Home: NextPage = () => {
 
   return (  
     <>
+      <Head>
+        <title>Marcelle Mendes</title>
+      </Head>
       {!toggleContent ?
         <About toggleContent={toggleContent} setToggleContent={setToggleContent}/>
       : <Projects toggleContent={toggleContent} setToggleContent={setToggleContent}/>}

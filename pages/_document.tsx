@@ -12,7 +12,6 @@ class MyDocument extends Document {
     return (
       <Html lang="eng">
         <Head>
-          <title>Marcelle Mendes</title>
           {/* enable analytics script only for production */}
           {true && (
             <>
