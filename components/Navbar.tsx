@@ -34,10 +34,10 @@ const Navbar = ({ toggleContent, setToggleContent}) => {
   
     return (
         <div className="flex justify-between px-5 my-3 ">
-            <span className="text-xl font-bold border-b-4 text-purple border-purple md:text-2xl">
+            <span className="text-xl font-bold border-b-4 text-purple border-purple md:text-2xl ">
                 {toggleContent ? 'Projects':'About'}
             </span>
-            <div className="flex space-x-3 text-lg">    
+            <div className="flex space-x-3 text-lg transition duration-500 transform hover:scale-110">    
                 <NavItem
                     activeItem={activeItem}
                     toggleContent={toggleContent}
