@@ -4,6 +4,8 @@ import { useState } from "react";
 import Projects from "../components/Projects";
 import About from "../components/About";
 
+
+
 const Home: NextPage = () => {
 
   const [toggleContent, setToggleContent] = useState<boolean>(false)
