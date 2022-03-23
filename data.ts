@@ -52,9 +52,9 @@ export const projects:IProject[] = [
     github_url: "https://dealsourcr.com/",
     deployed_url: "https://dealsourcr.com/",
     image_path: "/images/dealsourcr.png",
-    key_techs: ["React JS"]
+    key_techs: ["React JS",  "React Hooks", "external API", "Express JS"]
   },
-  {
+  /*{
     id: 2,
     name: "E-commerce",
     description: "The project is a E-commerce store where you can purchase electronics. It's possible to add and remove products to your cart and calculate the amount spent it.",
@@ -62,7 +62,7 @@ export const projects:IProject[] = [
     deployed_url: "https://competent-mayer-1fd506.netlify.app/",
     image_path: "/images/ecommerce.png",
     key_techs: ["React JS", "React Hooks", "Redux", "redux-thunk", "Axios", "Express JS", "MongoDB"]
-  },
+  }
   {
     id: 3,
     name: "Netflix Clone",
@@ -91,5 +91,5 @@ export const projects:IProject[] = [
     image_path: "/images/todo.png",
     key_techs:["Next JS", "React Hooks", "Axios", "Firebase/Firestore"]
   
-  }
+  }*/
 ]
