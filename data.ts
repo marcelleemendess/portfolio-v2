@@ -1,5 +1,5 @@
 import { RiComputerLine, RiToolsFill } from "react-icons/ri";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineAntDesign } from "react-icons/ai";
 import { BiCodeBlock } from "react-icons/bi";
 import { IProject, ISkills } from "./types";
 import { FaServer } from "react-icons/fa"
