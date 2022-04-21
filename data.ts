@@ -16,25 +16,25 @@ export const skills: ISkills[] = [
     Icon: BiCodeBlock,
     title: "Libraries & Frameworks",
     about:
-      "Experience with <b>React JS</b>, <b>Next JS</b>, <b>Tailwind CSS</b> and <b>Bootstrap</b>",
+      "Experience with <b>React JS</b>, <b>Next JS</b>, <b>Vue JS</b>, <b>Nuxt JS</b>, <b>Express JS</b>, <b>Tailwind CSS</b> and <b>Bootstrap</b>",
   },
   {
     Icon: RiToolsFill,
     title: "Tools & Platforms",
     about:
-      "Experience with <b>Git</b>, <b>Firebase</b>, <b>Netlify</b>, <b>Heroku</b>, and <b>Postman</b>",
+      "Experience with <b>Git</b>, <b>Git Flow</b> <b>Firebase</b>, <b>Netlify</b>, <b>Heroku</b>, <b>Postman</b>, <b>Docker</b>",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX",
     about:
-      "Build user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Build user interface designer using <b>Figma</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend Development",
     about:
-      "Basic knowledge using <b>Node JS</b>, <b>Express JS</b> and <b>MongoDB</b>",
+      "knowledge using <b>Node JS</b> and <b>MongoDB</b>",
   },
    {
     Icon: BsFillPeopleFill,

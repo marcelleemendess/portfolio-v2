@@ -25,9 +25,9 @@ const About = ({ toggleContent, setToggleContent}) => {
           exit="exit"
         >
           <h5 className="my-3 font-medium">
-            I'm a passionate <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Front-End developer</RainbowHighlight></RoughNotationGroup>  using web technologies to build user-friendly, simple and delightful products.
-            I've spent most of my time learning <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>React.js</RainbowHighlight></RoughNotationGroup> and the new features, but I'm always excited to learn new technologies.
-            I will love to hear from you. Whether it's a project or just a chat. <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Feel free to contact me.</RainbowHighlight></RoughNotationGroup>
+            I a passionate <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Software Developer</RainbowHighlight></RoughNotationGroup>  who uses web technologies to create user-friendly, simple and engaging products.
+            I have spent most of my time working with  <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Javascript</RainbowHighlight></RoughNotationGroup>, the frameworks, and new features, but I am always excited to learn new technologies that challenge me, at the moment I am learning Python and back-end developement. 
+            I would love to hear from you. Whether it's about a project or just a conversation. <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Just get in touch with me. </RainbowHighlight></RoughNotationGroup>
           </h5>
           <div
             className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
