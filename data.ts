@@ -16,7 +16,7 @@ export const skills: ISkills[] = [
     Icon: BiCodeBlock,
     title: "Libraries & Frameworks",
     about:
-      "Experience with <b>React JS</b>, <b>Next JS</b>, <b>Vue JS</b>, <b>Nuxt JS</b>,<b>GraphQL</b>, <b,>Apollo Client</b, <b>Tailwind CSS</b> and <b>Bootstrap</b>",
+      "Experience with <b>React JS</b>, <b>Next JS</b>, <b>Vue JS</b>, <b>Nuxt JS</b>,<b>GraphQL</b>, <b>Apollo Client</b>, <b>Tailwind CSS</b> and <b>Bootstrap</b>",
   },
   {
     Icon: RiToolsFill,
