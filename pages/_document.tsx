@@ -12,6 +12,9 @@ class MyDocument extends Document {
     return (
       <Html lang="eng">
         <Head>
+            {/* Google Tag Manager */}
+           {/* End Google Tag Manager */}
+           
           {/* enable analytics script only for production */}
           {true && (
             <>
