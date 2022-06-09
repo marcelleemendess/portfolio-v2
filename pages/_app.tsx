@@ -1,17 +1,24 @@
 import Sidebar from '../components/Sidebar';
 import '../styles/globals.css';
-
 import { ThemeProvider } from 'next-themes';
 import { AnimatePresence } from 'framer-motion';
-
 import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
+//Google tag - datalayer
+import TagManager from 'react-gtm-module';
 const isProduction = process.env.NODE_ENV === "production";
 
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   const router = useRouter();
+
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmld: 'GTM-MTHJFV9'
+    }
+    TagManager.initialize(tagManagerArgs)
+  },[])
 
   useEffect(() => {
     const handleRouteChange = (url: URL) => {
