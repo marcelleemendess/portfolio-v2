@@ -3,18 +3,11 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { GA_TRACKING_ID } from "../lib/gtag";
 
 const isProduction = process.env.NODE_ENV === "production";
-
-
 class MyDocument extends Document {
-
   render() {
-    
     return (
       <Html lang="eng">
         <Head>
-            {/* Google Tag Manager */}
-           {/* End Google Tag Manager */}
-           
           {/* enable analytics script only for production */}
           {true && (
             <>
