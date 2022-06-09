@@ -10,12 +10,16 @@ import * as gtag from "../lib/gtag";
 import TagManager from 'react-gtm-module';
 const isProduction = process.env.NODE_ENV === "production";
 
+type TagManagerArgs = {
+  gtmId: string
+};
+
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   const router = useRouter();
 
   useEffect(() => {
     const tagManagerArgs = {
-      gtmld: 'GTM-MTHJFV9'
+      gtmId: 'GTM-MTHJFV9'
     }
     TagManager.initialize(tagManagerArgs)
   },[])
