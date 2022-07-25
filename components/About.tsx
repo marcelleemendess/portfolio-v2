@@ -25,9 +25,12 @@ const About = ({ toggleContent, setToggleContent}) => {
           exit="exit"
         >
           <h5 className="my-3 font-medium">
-            I am passionate <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Software Developer</RainbowHighlight></RoughNotationGroup>  who uses web technologies to create user-friendly, simple and engaging products.
-            I have spent most of my time working with  <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Javascript</RainbowHighlight></RoughNotationGroup>, the frameworks, and new features, but I am always excited to learn new technologies that challenge me. I would love to hear from you. Whether it's about a project or just a conversation. 
-            <br/>
+            I am passionate self-taught full stack <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Software Engineer</RainbowHighlight></RoughNotationGroup>  who uses web technologies to create user-friendly, simple and engaging products.
+            I have spent most of my time working with  <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>C#, Python, Javascript</RainbowHighlight></RoughNotationGroup>, the frameworks, and new features, but I am always excited to learn new technologies that challenge me. 
+            <br></br>
+            <br></br>
+            I would love to hear from you. Whether it's about a project or just a conversation.
+            <br></br> 
             <RoughNotationGroup show={true}><RainbowHighlight color={colors[0]}>Just get in touch with me. </RainbowHighlight></RoughNotationGroup>
           </h5>
           <div

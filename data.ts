@@ -10,7 +10,7 @@ export const skills: ISkills[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "Build a scalable SPA using <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b>, <b>CSS/Sass/Stylus</b> ",
+      "Build a scalable SPA using <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>, <b>CSS</b>, <b>CSS preprocessors(All)</b> ",
   },
   {
     Icon: BiCodeBlock,
@@ -22,19 +22,19 @@ export const skills: ISkills[] = [
     Icon: RiToolsFill,
     title: "Tools & Platforms",
     about:
-      "Experience with <b>Git</b>, <b>Git Flow</b> <b>Firebase</b>, <b>Netlify</b>, <b>Heroku</b>, <b>Postman</b>, <b>Docker</b>",
+      "Experience with <b>Git</b>, <b>Git Flow</b>, <b>Firebase</b>, <b>Netlify</b>, <b>Heroku</b>, <b>Postman</b>, <b>Docker</b>, <b>Jenkins</b>, <b>MySQL Workbench</b>",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX",
     about:
-      "Build user interface designer using <b>Figma</b> ",
+      "Build user interface designer using <b>Figma</b> and <b>Adobe XD</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend Development",
     about:
-      "knowledge using <b>Node JS</b>, <b>Express JS</b>, and <b>MongoDB</b>",
+      "knowledge building Microservices with <b>.NET 6</b>  and <b>C#</b>, <b>Node JS</b>, <b>Express JS</b>, <b>MongoDB</b>, <b>MySQL</b>",
   },
    {
     Icon: BsFillPeopleFill,
@@ -52,7 +52,7 @@ export const projects:IProject[] = [
     github_url: "https://dealsourcr.com/",
     deployed_url: "https://dealsourcr.com/",
     image_path: "/images/dealsourcr.png",
-    key_techs: ["React JS",  "React Hooks", "external API", "Express JS"]
+    key_techs: ["React JS", "Python", "external API"]
   },
   /*{
     id: 2,
