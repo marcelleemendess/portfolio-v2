@@ -10,7 +10,7 @@ export const skills: ISkills[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "Build a scalable SPA using <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>, <b>CSS</b>, <b>CSS preprocessors(All)</b> ",
+      "Build a scalable SPA using <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>, <b>CSS preprocessors (All)</b> ",
   },
   {
     Icon: BiCodeBlock,
