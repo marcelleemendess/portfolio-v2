@@ -31,8 +31,8 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Full-Stack </p>
             <a
                 className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-500 dark:bg-dark-200"
-                href="/assets/Front-End-developer-MarcelleMendes-CV.docx.pdf"
-                download="Front-End-developer-MarcelleMendes-CV.docx.pdf">
+                href="/assets/Software developer-MarcelleMendes-CV - 2023.docx.pdf"
+                download="Software developer-MarcelleMendes-CV - 2023.docx.pdf">
                 <AiOutlineDownload className="w-6 h-6 mx-1 animate-bounce"/>
                 Resume
             </a>
