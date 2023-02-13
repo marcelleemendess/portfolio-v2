@@ -54,17 +54,27 @@ export const projects:IProject[] = [
     image_path: "/images/dealsourcr.png",
     key_techs: ["React JS", "Python", "external API"]
   },
-  /*{
+  {
     id: 2,
-    name: "E-commerce",
-    description: "The project is a E-commerce store where you can purchase electronics. It's possible to add and remove products to your cart and calculate the amount spent it.",
-    github_url: "https://github.com/marcelleemendess/ecommerce",
-    deployed_url: "https://competent-mayer-1fd506.netlify.app/",
-    image_path: "/images/ecommerce.png",
-    key_techs: ["React JS", "React Hooks", "Redux", "redux-thunk", "Axios", "Express JS", "MongoDB"]
-  }
+    name: "Delivery Page",
+    description: "The project is a Responsive Delivery Page store with a modern design. It was developed with the following technologies: HTML, CSS(SCSS), and Vanilla Javascript.",
+    github_url: "https://github.com/marcelleemendess/delivery-landing-page",
+    deployed_url: "https://delivery-landing-page-livid.vercel.app/",
+    image_path: "/images/delivery-page.png",
+    key_techs: ["HTML", "CSS(SCSS)", "JavaScript"]
+  },
   {
     id: 3,
+    name: "Notes with Tags",
+    description:"Markdown Supported Note Taking With Categories. This project was created with Vite and Typescript. It is possible to create notes, edit and delete, and create tags. You can also filter your notes by specific tags.",
+    github_url:"https://github.com/marcelleemendess/vite-project-notes-typescript-react",
+    deployed_url: "https://vite-project-notes-typescript-react.vercel.app",
+    image_path: "/images/notes.png",
+    key_techs:["Next JS","React Hooks", "Axios", "TMDB API" ]
+
+  },
+  {
+    id: 4,
     name: "Netflix Clone",
     description:"A Netflix clone built using React. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which are fetched from Youtube.",
     github_url:"https://github.com/marcelleemendess/netflix-clone",
@@ -73,6 +83,7 @@ export const projects:IProject[] = [
     key_techs:["Next JS","React Hooks", "Axios", "TMDB API" ]
 
   },
+  /*
   {
     id: 4,
     name: "Bookshelf",
